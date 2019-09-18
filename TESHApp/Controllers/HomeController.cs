@@ -31,6 +31,10 @@ namespace TESHApp.Controllers
             return View();
         }
 
+        public IActionResult TESH()
+        {
+            return View();
+        }
         public IActionResult Privacy()
         {
             return View();
